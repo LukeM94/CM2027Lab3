@@ -20,11 +20,12 @@ public class Main {
         
         Date date = new Date();
         Address address1 = new Address("Belfast", "sdlkdsklds@gmail.com");
-        
+        Address address2 = new Address("Dublin", "sdlkdsklds@gmail.com");
+
         Customer customer = new Customer(200, "Kdksksa", "fddsds", address1);
         System.out.println(customer);
         
-        Visitor visitor = new Visitor(date, "dsdssd", "dsfdfddssd" , address1);
+        Visitor visitor = new Visitor(date, "dsdssd", "dsfdfddssd" , address2);
         System.out.println(visitor);
         
     }
