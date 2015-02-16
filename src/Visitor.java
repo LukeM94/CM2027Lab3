@@ -14,8 +14,8 @@ public class Visitor extends Person{
     
     public Date visitDate;
 
-    public Visitor(Date visitDate, String firstName, String lastName) {
-        super(firstName, lastName);
+    public Visitor(Date visitDate, String firstName, String lastName, Address address) {
+        super(firstName, lastName, address);
         this.visitDate = visitDate;
     }
 

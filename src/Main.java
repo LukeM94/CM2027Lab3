@@ -19,11 +19,12 @@ public class Main {
         // TODO code application logic here
         
         Date date = new Date();
+        Address address1 = new Address("sdlkdsklds@gmail.com");
         
-        Customer customer = new Customer(200, "Kdksksa", "fddsds");
+        Customer customer = new Customer(200, "Kdksksa", "fddsds", address1);
         System.out.println(customer);
         
-        Visitor visitor = new Visitor(date, "dsdssd", "sasasd");
+        Visitor visitor = new Visitor(date, "dsdssd", "dsfdfddssd" , address1);
         System.out.println(visitor);
         
     }
